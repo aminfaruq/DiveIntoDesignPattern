@@ -13,6 +13,7 @@
 		83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F4B2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift */; };
 		83743F4F2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F4E2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift */; };
 		83743F502C2E91380067BB1A /* FactoryMethodConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F472C2E8E3B0067BB1A /* FactoryMethodConceptual.swift */; };
+		83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F492C2E8E580067BB1A /* FactoryMethodExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +243,7 @@
 			files = (
 				83743F4F2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift in Sources */,
 				83743F502C2E91380067BB1A /* FactoryMethodConceptual.swift in Sources */,
+				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
