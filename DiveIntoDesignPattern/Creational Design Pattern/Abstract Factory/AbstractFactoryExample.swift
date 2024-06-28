@@ -142,7 +142,7 @@ class TeacherLoginView: NSView, AuthView {
 
 class AuthViewController: NSViewController {
 
-    fileprivate var contentView: AuthView
+    private var contentView: AuthView
 
     init(contentView: AuthView) {
         self.contentView = contentView
