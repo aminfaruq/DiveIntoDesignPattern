@@ -14,6 +14,9 @@
 		83743F4F2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F4E2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift */; };
 		83743F502C2E91380067BB1A /* FactoryMethodConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F472C2E8E3B0067BB1A /* FactoryMethodConceptual.swift */; };
 		83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F492C2E8E580067BB1A /* FactoryMethodExample.swift */; };
+		83743F552C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F542C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift */; };
+		83743F572C2EA50C0067BB1A /* AbstractFactoryConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F562C2EA50C0067BB1A /* AbstractFactoryConceptual.swift */; };
+		83743F582C2EA5260067BB1A /* AbstractFactoryConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F562C2EA50C0067BB1A /* AbstractFactoryConceptual.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 		83743F492C2E8E580067BB1A /* FactoryMethodExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodExample.swift; sourceTree = "<group>"; };
 		83743F4B2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodConceptualTests.swift; sourceTree = "<group>"; };
 		83743F4E2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodExampleTests.swift; sourceTree = "<group>"; };
+		83743F542C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryConceptualTests.swift; sourceTree = "<group>"; };
+		83743F562C2EA50C0067BB1A /* AbstractFactoryConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryConceptual.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,7 @@
 		83743F402C2E8BFB0067BB1A /* Creational Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				83743F522C2E9F290067BB1A /* Abstract Factory */,
 				83743F462C2E8E240067BB1A /* Factory Method */,
 			);
 			path = "Creational Design Pattern";
@@ -99,6 +105,7 @@
 		83743F432C2E8DAE0067BB1A /* Creational Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				83743F532C2E9F330067BB1A /* Abstract Factory */,
 				83743F4D2C2E8E7A0067BB1A /* Factory Method */,
 			);
 			path = "Creational Design Pattern";
@@ -120,6 +127,22 @@
 				83743F4E2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift */,
 			);
 			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		83743F522C2E9F290067BB1A /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				83743F562C2EA50C0067BB1A /* AbstractFactoryConceptual.swift */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		83743F532C2E9F330067BB1A /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				83743F542C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift */,
+			);
+			path = "Abstract Factory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +257,7 @@
 			files = (
 				83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */,
+				83743F572C2EA50C0067BB1A /* AbstractFactoryConceptual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83743F552C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift in Sources */,
 				83743F4F2C2E8E9B0067BB1A /* FactoryMethodExampleTests.swift in Sources */,
+				83743F582C2EA5260067BB1A /* AbstractFactoryConceptual.swift in Sources */,
 				83743F502C2E91380067BB1A /* FactoryMethodConceptual.swift in Sources */,
 				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */,
