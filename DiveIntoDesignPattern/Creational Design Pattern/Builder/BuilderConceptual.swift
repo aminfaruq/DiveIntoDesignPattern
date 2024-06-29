@@ -1,10 +1,8 @@
-//
-//  BuilderConceptual.swift
-//  DiveIntoDesignPattern
-//
-//  Created by Amin faruq on 28/06/24.
-//
-
+/// Builder Design Pattern
+///
+/// Intent: Lets you construct complex objects step by step. The pattern allows
+/// you to produce different types and representations of an object using the
+/// same construction code.
 import Foundation
 
 /// The Builder interface specifies methods for creating the different parts of

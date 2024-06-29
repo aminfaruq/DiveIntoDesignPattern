@@ -1,10 +1,7 @@
-//
-//  AbstractFactoryConceptual.swift
-//  DiveIntoDesignPattern
-//
-//  Created by Amin faruq on 28/06/24.
-//
-
+/// Abstract Factory Design Pattern
+///
+/// Intent: Lets you produce families of related objects without specifying
+/// their concrete classes.
 import Foundation
 
 //MARK: - STEP 1 -

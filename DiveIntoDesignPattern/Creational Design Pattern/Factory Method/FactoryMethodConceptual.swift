@@ -1,10 +1,8 @@
 //
-//  FactoryMethodConceptual.swift
-//  DiveIntoDesignPattern
-//
-//  Created by Amin faruq on 28/06/24.
-//
-
+/// Factory Method Design Pattern
+///
+/// Intent: Provides an interface for creating objects in a superclass, but
+/// allows subclasses to alter the type of objects that will be created.
 import Foundation
 
 //MARK: - STEP 1 -
