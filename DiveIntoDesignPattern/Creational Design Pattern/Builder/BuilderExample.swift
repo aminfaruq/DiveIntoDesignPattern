@@ -94,11 +94,9 @@ class RealmProvider {
             case .filter(_):
                 print("RealmProvider: executing the 'filter' operation")
                 /// Use Realm instance to filter results.
-                break
             case .limit(_):
                 print("RealmProvider: executing the 'limit' operation.")
                 /// Use Realm instance to limit results.
-                break
             }
         }
         /// Return results from result
@@ -118,15 +116,12 @@ class CoreDataProvider {
             case .filter(_):
                 print("CoreDataProvider: executing the 'filter' operation.")
                 /// Set a 'predicate' for a NSFetchRequest.
-                break
             case .limit(_):
                 print("CoreDataProvider: executing the 'limit' operation.")
                 /// Set a 'fetchLimit' for a NSFetchRequest.
-                break
             case .includesPropertyValues(_):
                 print("CoreDataProvider: executing the 'includesPropertyValues' operation.")
                 /// Set an 'includesPropertyValues' for a NSFetchRequest.
-                break
             }
         }
         
