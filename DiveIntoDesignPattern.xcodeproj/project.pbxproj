@@ -32,6 +32,9 @@
 		83743F722C3087270067BB1A /* PrototypeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F712C3087270067BB1A /* PrototypeExampleTests.swift */; };
 		83743F762C308B150067BB1A /* PrototypeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F752C308B150067BB1A /* PrototypeExample.swift */; };
 		83743F772C308B1A0067BB1A /* PrototypeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F752C308B150067BB1A /* PrototypeExample.swift */; };
+		839F5B762C49342100D0B6ED /* SingletonConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F5B752C49342100D0B6ED /* SingletonConceptual.swift */; };
+		839F5B782C49344900D0B6ED /* SingletonConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F5B772C49344900D0B6ED /* SingletonConceptualTests.swift */; };
+		839F5B792C4935EF00D0B6ED /* SingletonConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F5B752C49342100D0B6ED /* SingletonConceptual.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,8 @@
 		83743F6E2C3082BF0067BB1A /* PrototypeConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeConceptual.swift; sourceTree = "<group>"; };
 		83743F712C3087270067BB1A /* PrototypeExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeExampleTests.swift; sourceTree = "<group>"; };
 		83743F752C308B150067BB1A /* PrototypeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeExample.swift; sourceTree = "<group>"; };
+		839F5B752C49342100D0B6ED /* SingletonConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonConceptual.swift; sourceTree = "<group>"; };
+		839F5B772C49344900D0B6ED /* SingletonConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonConceptualTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,7 @@
 				83743F522C2E9F290067BB1A /* Abstract Factory */,
 				83743F5F2C2F10C40067BB1A /* Builder */,
 				83743F6B2C307F0A0067BB1A /* Prototype */,
+				839F5B732C4933D400D0B6ED /* Singleton */,
 			);
 			path = "Creational Design Pattern";
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 				83743F532C2E9F330067BB1A /* Abstract Factory */,
 				83743F5E2C2F10BD0067BB1A /* Builder */,
 				83743F6A2C307EFC0067BB1A /* Prototype */,
+				839F5B742C4933E200D0B6ED /* Singleton */,
 			);
 			path = "Creational Design Pattern";
 			sourceTree = "<group>";
@@ -210,6 +217,22 @@
 				83743F752C308B150067BB1A /* PrototypeExample.swift */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		839F5B732C4933D400D0B6ED /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				839F5B752C49342100D0B6ED /* SingletonConceptual.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		839F5B742C4933E200D0B6ED /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				839F5B772C49344900D0B6ED /* SingletonConceptualTests.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +353,7 @@
 				83743F572C2EA50C0067BB1A /* AbstractFactoryConceptual.swift in Sources */,
 				83743F5C2C2EAC090067BB1A /* AbstractFactoryExample.swift in Sources */,
 				83743F632C2F11060067BB1A /* BuilderConceptual.swift in Sources */,
+				839F5B762C49342100D0B6ED /* SingletonConceptual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +374,11 @@
 				83743F702C3085420067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */,
+				839F5B782C49344900D0B6ED /* SingletonConceptualTests.swift in Sources */,
 				83743F6D2C3082570067BB1A /* PrototypeConcentualTests.swift in Sources */,
 				83743F5D2C2EAC0C0067BB1A /* AbstractFactoryExample.swift in Sources */,
 				83743F642C2F115B0067BB1A /* BuilderConceptual.swift in Sources */,
+				839F5B792C4935EF00D0B6ED /* SingletonConceptual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
