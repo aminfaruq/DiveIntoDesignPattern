@@ -32,8 +32,11 @@ class Singleton {
     }
 }
 
+/// Singletons should not be cloneable.
+/*
 extension Singleton: NSCopying {
     func copy(with zone: NSZone? = nil) -> Any {
         return self
     }
 }
+*/
