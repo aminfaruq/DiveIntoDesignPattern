@@ -8,7 +8,7 @@
 import XCTest
 import DiveIntoDesignPattern
 
-private class Client {
+private enum Client {
     // ...
     static func someClientCode() {
         let instance1 = Singleton.shared
