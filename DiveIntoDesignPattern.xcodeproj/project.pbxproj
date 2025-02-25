@@ -35,6 +35,9 @@
 		839F5B762C49342100D0B6ED /* SingletonConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F5B752C49342100D0B6ED /* SingletonConceptual.swift */; };
 		839F5B782C49344900D0B6ED /* SingletonConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F5B772C49344900D0B6ED /* SingletonConceptualTests.swift */; };
 		839F5B792C4935EF00D0B6ED /* SingletonConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F5B752C49342100D0B6ED /* SingletonConceptual.swift */; };
+		83C3C0062D6E0B0200B09DBF /* AdapterConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C0052D6E0B0200B09DBF /* AdapterConceptual.swift */; };
+		83C3C0082D6E0B0F00B09DBF /* AdapterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C0072D6E0B0F00B09DBF /* AdapterExample.swift */; };
+		83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		83743F752C308B150067BB1A /* PrototypeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeExample.swift; sourceTree = "<group>"; };
 		839F5B752C49342100D0B6ED /* SingletonConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonConceptual.swift; sourceTree = "<group>"; };
 		839F5B772C49344900D0B6ED /* SingletonConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonConceptualTests.swift; sourceTree = "<group>"; };
+		83C3C0052D6E0B0200B09DBF /* AdapterConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterConceptual.swift; sourceTree = "<group>"; };
+		83C3C0072D6E0B0F00B09DBF /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
+		83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterConceptualTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				83743F402C2E8BFB0067BB1A /* Creational Design Pattern */,
+				83C3C0002D6E098100B09DBF /* Structural Design Pattern */,
 			);
 			path = DiveIntoDesignPattern;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				83743F432C2E8DAE0067BB1A /* Creational Design Pattern */,
+				83C3C0012D6E099000B09DBF /* Structural Design Pattern */,
 			);
 			path = DiveIntoDesignPatternTests;
 			sourceTree = "<group>";
@@ -235,6 +243,39 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
+		83C3C0002D6E098100B09DBF /* Structural Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				83C3C0022D6E0ACF00B09DBF /* Adapter */,
+			);
+			path = "Structural Design Pattern";
+			sourceTree = "<group>";
+		};
+		83C3C0012D6E099000B09DBF /* Structural Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				83C3C0092D6E0D6D00B09DBF /* Adapter */,
+			);
+			path = "Structural Design Pattern";
+			sourceTree = "<group>";
+		};
+		83C3C0022D6E0ACF00B09DBF /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				83C3C0052D6E0B0200B09DBF /* AdapterConceptual.swift */,
+				83C3C0072D6E0B0F00B09DBF /* AdapterExample.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		83C3C0092D6E0D6D00B09DBF /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -346,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83743F662C2F15CB0067BB1A /* BuilderExample.swift in Sources */,
+				83C3C0062D6E0B0200B09DBF /* AdapterConceptual.swift in Sources */,
 				83743F6F2C3082BF0067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F762C308B150067BB1A /* PrototypeExample.swift in Sources */,
@@ -354,6 +396,7 @@
 				83743F5C2C2EAC090067BB1A /* AbstractFactoryExample.swift in Sources */,
 				83743F632C2F11060067BB1A /* BuilderConceptual.swift in Sources */,
 				839F5B762C49342100D0B6ED /* SingletonConceptual.swift in Sources */,
+				83C3C0082D6E0B0F00B09DBF /* AdapterExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +418,7 @@
 				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */,
 				839F5B782C49344900D0B6ED /* SingletonConceptualTests.swift in Sources */,
+				83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */,
 				83743F6D2C3082570067BB1A /* PrototypeConcentualTests.swift in Sources */,
 				83743F5D2C2EAC0C0067BB1A /* AbstractFactoryExample.swift in Sources */,
 				83743F642C2F115B0067BB1A /* BuilderConceptual.swift in Sources */,
