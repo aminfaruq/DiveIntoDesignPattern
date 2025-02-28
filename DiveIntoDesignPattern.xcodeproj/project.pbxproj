@@ -13,6 +13,9 @@
 		831CEA772D7043160033BA1B /* BridgeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA762D7043160033BA1B /* BridgeExample.swift */; };
 		831CEA792D7043260033BA1B /* BridgeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA782D7043260033BA1B /* BridgeExampleTests.swift */; };
 		831CEA7A2D7046E30033BA1B /* BridgeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA762D7043160033BA1B /* BridgeExample.swift */; };
+		831CEA7E2D719D5C0033BA1B /* CompositeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA7D2D719D5C0033BA1B /* CompositeConceptual.swift */; };
+		831CEA802D719D6C0033BA1B /* CompositeConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA7F2D719D6C0033BA1B /* CompositeConceptualTests.swift */; };
+		831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA7D2D719D5C0033BA1B /* CompositeConceptual.swift */; };
 		83743F2F2C2E8AB50067BB1A /* DiveIntoDesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83743F262C2E8AB50067BB1A /* DiveIntoDesignPattern.framework */; };
 		83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F472C2E8E3B0067BB1A /* FactoryMethodConceptual.swift */; };
 		83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F492C2E8E580067BB1A /* FactoryMethodExample.swift */; };
@@ -62,6 +65,8 @@
 		831CEA732D703D7B0033BA1B /* BridgeConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeConceptualTests.swift; sourceTree = "<group>"; };
 		831CEA762D7043160033BA1B /* BridgeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeExample.swift; sourceTree = "<group>"; };
 		831CEA782D7043260033BA1B /* BridgeExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeExampleTests.swift; sourceTree = "<group>"; };
+		831CEA7D2D719D5C0033BA1B /* CompositeConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeConceptual.swift; sourceTree = "<group>"; };
+		831CEA7F2D719D6C0033BA1B /* CompositeConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeConceptualTests.swift; sourceTree = "<group>"; };
 		83743F262C2E8AB50067BB1A /* DiveIntoDesignPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiveIntoDesignPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83743F2E2C2E8AB50067BB1A /* DiveIntoDesignPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiveIntoDesignPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83743F472C2E8E3B0067BB1A /* FactoryMethodConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodConceptual.swift; sourceTree = "<group>"; };
@@ -123,6 +128,22 @@
 				831CEA762D7043160033BA1B /* BridgeExample.swift */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		831CEA7B2D719D3D0033BA1B /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				831CEA7D2D719D5C0033BA1B /* CompositeConceptual.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		831CEA7C2D719D450033BA1B /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				831CEA7F2D719D6C0033BA1B /* CompositeConceptualTests.swift */,
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 		83743F1C2C2E8AB50067BB1A = {
@@ -276,6 +297,7 @@
 		83C3C0002D6E098100B09DBF /* Structural Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				831CEA7B2D719D3D0033BA1B /* Composite */,
 				831CEA702D703D500033BA1B /* Bridge */,
 				83C3C0022D6E0ACF00B09DBF /* Adapter */,
 			);
@@ -285,6 +307,7 @@
 		83C3C0012D6E099000B09DBF /* Structural Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				831CEA7C2D719D450033BA1B /* Composite */,
 				831CEA6F2D703D360033BA1B /* Bridge */,
 				83C3C0092D6E0D6D00B09DBF /* Adapter */,
 			);
@@ -426,6 +449,7 @@
 				83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */,
 				83743F762C308B150067BB1A /* PrototypeExample.swift in Sources */,
 				83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */,
+				831CEA7E2D719D5C0033BA1B /* CompositeConceptual.swift in Sources */,
 				83743F572C2EA50C0067BB1A /* AbstractFactoryConceptual.swift in Sources */,
 				83743F5C2C2EAC090067BB1A /* AbstractFactoryExample.swift in Sources */,
 				831CEA772D7043160033BA1B /* BridgeExample.swift in Sources */,
@@ -440,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831CEA752D7040230033BA1B /* BridgeConceptual.swift in Sources */,
+				831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */,
 				83743F612C2F10F00067BB1A /* BuilderConceptualTests.swift in Sources */,
 				83743F552C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift in Sources */,
 				831CEA742D703D7B0033BA1B /* BridgeConceptualTests.swift in Sources */,
@@ -455,6 +480,7 @@
 				83743F702C3085420067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
 				831CEA7A2D7046E30033BA1B /* BridgeExample.swift in Sources */,
+				831CEA802D719D6C0033BA1B /* CompositeConceptualTests.swift in Sources */,
 				83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */,
 				839F5B782C49344900D0B6ED /* SingletonConceptualTests.swift in Sources */,
 				83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */,
