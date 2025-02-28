@@ -18,6 +18,7 @@
 		831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA7D2D719D5C0033BA1B /* CompositeConceptual.swift */; };
 		831CEA832D71B29F0033BA1B /* CompositeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA822D71B29F0033BA1B /* CompositeExample.swift */; };
 		831CEA852D71B2AA0033BA1B /* CompositeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA842D71B2AA0033BA1B /* CompositeExampleTests.swift */; };
+		831CEA862D71B9400033BA1B /* CompositeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA822D71B29F0033BA1B /* CompositeExample.swift */; };
 		83743F2F2C2E8AB50067BB1A /* DiveIntoDesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83743F262C2E8AB50067BB1A /* DiveIntoDesignPattern.framework */; };
 		83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F472C2E8E3B0067BB1A /* FactoryMethodConceptual.swift */; };
 		83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83743F492C2E8E580067BB1A /* FactoryMethodExample.swift */; };
@@ -470,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831CEA862D71B9400033BA1B /* CompositeExample.swift in Sources */,
 				831CEA752D7040230033BA1B /* BridgeConceptual.swift in Sources */,
 				831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */,
 				83743F612C2F10F00067BB1A /* BuilderConceptualTests.swift in Sources */,
