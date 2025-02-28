@@ -12,18 +12,18 @@
 
 /// The base Component class declares common operations for both simple and
 /// complex objects of a composition.
-protocol Component {
+protocol CompositeComponent {
     /// The base Component may optionally declare methods for setting and
     /// accessing a parent of the component in a tree structure. It can also
     /// provide some default implementation for these methods.
-    var parent: Component? { get set }
+    var parent: CompositeComponent? { get set }
     
     /// In some cases, it would be beneficial to define the child-management
     /// operations right in the base Component class. This way, you won't need
     /// to expose any concrete component classes to the client code, even during
     /// the object tree assembly. The downside is that these methods will be
     /// empty for the leaf-level components.
-    func add(component: Component)
+    func add(component: CompositeComponent)
     
     /// You can provide a method that lets the client code figure out whether a
     /// component can bear children.
@@ -34,11 +34,11 @@ protocol Component {
     func operation() -> String
 }
 
-extension Component {
+extension CompositeComponent {
     
-    func add(component: Component) {}
+    func add(component: CompositeComponent) {}
     
-    func remove(component: Component) {}
+    func remove(component: CompositeComponent) {}
     
     func isComposite() -> Bool { false }
 }
@@ -48,8 +48,8 @@ extension Component {
 ///
 /// Usually, it's the Leaf objects that do the actual work, whereas Composite
 /// objects only delegate to their sub-components.
-class Leaf: Component {
-    var parent: Component?
+class Leaf: CompositeComponent {
+    var parent: CompositeComponent?
     
     func operation() -> String {
         "Leaf"
@@ -59,20 +59,20 @@ class Leaf: Component {
 /// The Composite class represents the complex components that may have
 /// children. Usually, the Composite objects delegate the actual work to their
 /// children and then "sum-up" the result.
-class Composite: Component {
-    var parent: Component?
+class Composite: CompositeComponent {
+    var parent: CompositeComponent?
     
     /// This fields contains the component subtree.
-    private var children = [Component]()
+    private var children = [CompositeComponent]()
     
     /// A composite object can add or remove other components (both simple or complex) to or from its child list.
-    func add(component: Component) {
+    func add(component: CompositeComponent) {
         var item = component
         item.parent = self
         children.append(item)
     }
     
-    func remove(component: Component) {
+    func remove(component: CompositeComponent) {
         // ...
     }
     
@@ -93,14 +93,14 @@ class Composite: Component {
 class CompositeClient {
     
     /// The client  code works with all of the components via the base inteface.
-    static func someClientCode(component: Component) {
+    static func someClientCode(component: CompositeComponent) {
         print("Result: \(component.operation())")
     }
     
     /// Thanks to the fact that the child-management operations are also
     /// declared in the base Component class, the client code can work with both
     /// simple or complex components.
-    static func moreComplexClientCode(leftComponent: Component, rightComponent: Component) {
+    static func moreComplexClientCode(leftComponent: CompositeComponent, rightComponent: CompositeComponent) {
         if leftComponent.isComposite() {
             leftComponent.add(component: rightComponent)
         }
