@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361AE5142D76C9F2009C02EF /* DecoratorConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5132D76C9F2009C02EF /* DecoratorConceptual.swift */; };
+		361AE5162D76CA08009C02EF /* DecoratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5152D76CA08009C02EF /* DecoratorExample.swift */; };
+		361AE5182D76CA55009C02EF /* DecoratorConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5172D76CA55009C02EF /* DecoratorConceptualTests.swift */; };
+		361AE51A2D76CA75009C02EF /* DecoratorExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5192D76CA75009C02EF /* DecoratorExampleTest.swift */; };
+		361AE51B2D76CD37009C02EF /* DecoratorConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5132D76C9F2009C02EF /* DecoratorConceptual.swift */; };
+		361AE51C2D76DFE8009C02EF /* DecoratorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5152D76CA08009C02EF /* DecoratorExample.swift */; };
 		831CEA722D703D670033BA1B /* BridgeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA712D703D670033BA1B /* BridgeConceptual.swift */; };
 		831CEA742D703D7B0033BA1B /* BridgeConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA732D703D7B0033BA1B /* BridgeConceptualTests.swift */; };
 		831CEA752D7040230033BA1B /* BridgeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA712D703D670033BA1B /* BridgeConceptual.swift */; };
@@ -64,6 +70,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361AE5132D76C9F2009C02EF /* DecoratorConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorConceptual.swift; sourceTree = "<group>"; };
+		361AE5152D76CA08009C02EF /* DecoratorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorExample.swift; sourceTree = "<group>"; };
+		361AE5172D76CA55009C02EF /* DecoratorConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorConceptualTests.swift; sourceTree = "<group>"; };
+		361AE5192D76CA75009C02EF /* DecoratorExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorExampleTest.swift; sourceTree = "<group>"; };
 		831CEA712D703D670033BA1B /* BridgeConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeConceptual.swift; sourceTree = "<group>"; };
 		831CEA732D703D7B0033BA1B /* BridgeConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeConceptualTests.swift; sourceTree = "<group>"; };
 		831CEA762D7043160033BA1B /* BridgeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeExample.swift; sourceTree = "<group>"; };
@@ -117,6 +127,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361AE5112D76C89A009C02EF /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				361AE5172D76CA55009C02EF /* DecoratorConceptualTests.swift */,
+				361AE5192D76CA75009C02EF /* DecoratorExampleTest.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		361AE5122D76C8A9009C02EF /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				361AE5132D76C9F2009C02EF /* DecoratorConceptual.swift */,
+				361AE5152D76CA08009C02EF /* DecoratorExample.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 		831CEA6F2D703D360033BA1B /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +332,7 @@
 		83C3C0002D6E098100B09DBF /* Structural Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				361AE5122D76C8A9009C02EF /* Decorator */,
 				831CEA7B2D719D3D0033BA1B /* Composite */,
 				831CEA702D703D500033BA1B /* Bridge */,
 				83C3C0022D6E0ACF00B09DBF /* Adapter */,
@@ -314,6 +343,7 @@
 		83C3C0012D6E099000B09DBF /* Structural Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				361AE5112D76C89A009C02EF /* Decorator */,
 				831CEA7C2D719D450033BA1B /* Composite */,
 				831CEA6F2D703D360033BA1B /* Bridge */,
 				83C3C0092D6E0D6D00B09DBF /* Adapter */,
@@ -449,11 +479,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361AE5162D76CA08009C02EF /* DecoratorExample.swift in Sources */,
 				831CEA722D703D670033BA1B /* BridgeConceptual.swift in Sources */,
 				83743F662C2F15CB0067BB1A /* BuilderExample.swift in Sources */,
 				83C3C0062D6E0B0200B09DBF /* AdapterConceptual.swift in Sources */,
 				83743F6F2C3082BF0067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */,
+				361AE5142D76C9F2009C02EF /* DecoratorConceptual.swift in Sources */,
 				83743F762C308B150067BB1A /* PrototypeExample.swift in Sources */,
 				83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */,
 				831CEA832D71B29F0033BA1B /* CompositeExample.swift in Sources */,
@@ -471,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361AE51C2D76DFE8009C02EF /* DecoratorExample.swift in Sources */,
 				831CEA862D71B9400033BA1B /* CompositeExample.swift in Sources */,
 				831CEA752D7040230033BA1B /* BridgeConceptual.swift in Sources */,
 				831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */,
@@ -488,6 +521,8 @@
 				83743F682C2F15D80067BB1A /* BuilderExampleTests.swift in Sources */,
 				83743F702C3085420067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
+				361AE5182D76CA55009C02EF /* DecoratorConceptualTests.swift in Sources */,
+				361AE51B2D76CD37009C02EF /* DecoratorConceptual.swift in Sources */,
 				831CEA7A2D7046E30033BA1B /* BridgeExample.swift in Sources */,
 				831CEA852D71B2AA0033BA1B /* CompositeExampleTests.swift in Sources */,
 				831CEA802D719D6C0033BA1B /* CompositeConceptualTests.swift in Sources */,
@@ -496,6 +531,7 @@
 				83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */,
 				83743F6D2C3082570067BB1A /* PrototypeConcentualTests.swift in Sources */,
 				83C3C00F2D6E16F700B09DBF /* AdapterExampleTests.swift in Sources */,
+				361AE51A2D76CA75009C02EF /* DecoratorExampleTest.swift in Sources */,
 				83743F5D2C2EAC0C0067BB1A /* AbstractFactoryExample.swift in Sources */,
 				83743F642C2F115B0067BB1A /* BuilderConceptual.swift in Sources */,
 				839F5B792C4935EF00D0B6ED /* SingletonConceptual.swift in Sources */,
