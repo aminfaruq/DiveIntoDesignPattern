@@ -242,7 +242,6 @@
 		83743F432C2E8DAE0067BB1A /* Creational Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				83DDCB3A2D7983C9001D2C63 /* Facade */,
 				83743F4D2C2E8E7A0067BB1A /* Factory Method */,
 				83743F532C2E9F330067BB1A /* Abstract Factory */,
 				83743F5E2C2F10BD0067BB1A /* Builder */,
@@ -355,6 +354,7 @@
 		83C3C0012D6E099000B09DBF /* Structural Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				83DDCB3A2D7983C9001D2C63 /* Facade */,
 				361AE5112D76C89A009C02EF /* Decorator */,
 				831CEA7C2D719D450033BA1B /* Composite */,
 				831CEA6F2D703D360033BA1B /* Bridge */,
