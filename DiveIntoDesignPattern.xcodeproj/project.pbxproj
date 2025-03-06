@@ -57,6 +57,9 @@
 		83C3C0082D6E0B0F00B09DBF /* AdapterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C0072D6E0B0F00B09DBF /* AdapterExample.swift */; };
 		83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */; };
 		83C3C00F2D6E16F700B09DBF /* AdapterExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C00E2D6E16F700B09DBF /* AdapterExampleTests.swift */; };
+		83DDCB3C2D7983E6001D2C63 /* FacadeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */; };
+		83DDCB3D2D79874D001D2C63 /* FacadeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */; };
+		83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +109,8 @@
 		83C3C0072D6E0B0F00B09DBF /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
 		83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterConceptualTests.swift; sourceTree = "<group>"; };
 		83C3C00E2D6E16F700B09DBF /* AdapterExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExampleTests.swift; sourceTree = "<group>"; };
+		83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptual.swift; sourceTree = "<group>"; };
+		83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptualTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +237,7 @@
 		83743F432C2E8DAE0067BB1A /* Creational Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				83DDCB3A2D7983C9001D2C63 /* Facade */,
 				83743F4D2C2E8E7A0067BB1A /* Factory Method */,
 				83743F532C2E9F330067BB1A /* Abstract Factory */,
 				83743F5E2C2F10BD0067BB1A /* Builder */,
@@ -332,6 +338,7 @@
 		83C3C0002D6E098100B09DBF /* Structural Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				83DDCB392D7983BE001D2C63 /* Facade */,
 				361AE5122D76C8A9009C02EF /* Decorator */,
 				831CEA7B2D719D3D0033BA1B /* Composite */,
 				831CEA702D703D500033BA1B /* Bridge */,
@@ -367,6 +374,22 @@
 				83C3C00E2D6E16F700B09DBF /* AdapterExampleTests.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		83DDCB392D7983BE001D2C63 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		83DDCB3A2D7983C9001D2C63 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +509,7 @@
 				83743F6F2C3082BF0067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */,
 				361AE5142D76C9F2009C02EF /* DecoratorConceptual.swift in Sources */,
+				83DDCB3C2D7983E6001D2C63 /* FacadeConceptual.swift in Sources */,
 				83743F762C308B150067BB1A /* PrototypeExample.swift in Sources */,
 				83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */,
 				831CEA832D71B29F0033BA1B /* CompositeExample.swift in Sources */,
@@ -506,6 +530,7 @@
 				361AE51C2D76DFE8009C02EF /* DecoratorExample.swift in Sources */,
 				831CEA862D71B9400033BA1B /* CompositeExample.swift in Sources */,
 				831CEA752D7040230033BA1B /* BridgeConceptual.swift in Sources */,
+				83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */,
 				831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */,
 				83743F612C2F10F00067BB1A /* BuilderConceptualTests.swift in Sources */,
 				83743F552C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift in Sources */,
@@ -531,6 +556,7 @@
 				83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */,
 				83743F6D2C3082570067BB1A /* PrototypeConcentualTests.swift in Sources */,
 				83C3C00F2D6E16F700B09DBF /* AdapterExampleTests.swift in Sources */,
+				83DDCB3D2D79874D001D2C63 /* FacadeConceptual.swift in Sources */,
 				361AE51A2D76CA75009C02EF /* DecoratorExampleTest.swift in Sources */,
 				83743F5D2C2EAC0C0067BB1A /* AbstractFactoryExample.swift in Sources */,
 				83743F642C2F115B0067BB1A /* BuilderConceptual.swift in Sources */,
