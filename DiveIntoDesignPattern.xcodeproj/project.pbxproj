@@ -60,6 +60,9 @@
 		83DDCB3C2D7983E6001D2C63 /* FacadeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */; };
 		83DDCB3D2D79874D001D2C63 /* FacadeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */; };
 		83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */; };
+		83DDCB412D798E3A001D2C63 /* FacadeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB402D798E3A001D2C63 /* FacadeExample.swift */; };
+		83DDCB432D798E51001D2C63 /* FacadeExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB422D798E51001D2C63 /* FacadeExampleTest.swift */; };
+		83DDCB442D799072001D2C63 /* FacadeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB402D798E3A001D2C63 /* FacadeExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,8 @@
 		83C3C00E2D6E16F700B09DBF /* AdapterExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExampleTests.swift; sourceTree = "<group>"; };
 		83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptual.swift; sourceTree = "<group>"; };
 		83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptualTest.swift; sourceTree = "<group>"; };
+		83DDCB402D798E3A001D2C63 /* FacadeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExample.swift; sourceTree = "<group>"; };
+		83DDCB422D798E51001D2C63 /* FacadeExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExampleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */,
+				83DDCB402D798E3A001D2C63 /* FacadeExample.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -388,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */,
+				83DDCB422D798E51001D2C63 /* FacadeExampleTest.swift */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -507,6 +514,7 @@
 				83743F662C2F15CB0067BB1A /* BuilderExample.swift in Sources */,
 				83C3C0062D6E0B0200B09DBF /* AdapterConceptual.swift in Sources */,
 				83743F6F2C3082BF0067BB1A /* PrototypeConceptual.swift in Sources */,
+				83DDCB412D798E3A001D2C63 /* FacadeExample.swift in Sources */,
 				83743F4A2C2E8E580067BB1A /* FactoryMethodExample.swift in Sources */,
 				361AE5142D76C9F2009C02EF /* DecoratorConceptual.swift in Sources */,
 				83DDCB3C2D7983E6001D2C63 /* FacadeConceptual.swift in Sources */,
@@ -553,7 +561,9 @@
 				831CEA802D719D6C0033BA1B /* CompositeConceptualTests.swift in Sources */,
 				83743F4C2C2E8E770067BB1A /* FactoryMethodConceptualTests.swift in Sources */,
 				839F5B782C49344900D0B6ED /* SingletonConceptualTests.swift in Sources */,
+				83DDCB442D799072001D2C63 /* FacadeExample.swift in Sources */,
 				83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */,
+				83DDCB432D798E51001D2C63 /* FacadeExampleTest.swift in Sources */,
 				83743F6D2C3082570067BB1A /* PrototypeConcentualTests.swift in Sources */,
 				83C3C00F2D6E16F700B09DBF /* AdapterExampleTests.swift in Sources */,
 				83DDCB3D2D79874D001D2C63 /* FacadeConceptual.swift in Sources */,
