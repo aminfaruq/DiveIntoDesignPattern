@@ -66,6 +66,9 @@
 		83DDCB482D79EF46001D2C63 /* FlyweightConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB472D79EF46001D2C63 /* FlyweightConceptual.swift */; };
 		83DDCB4A2D79F26D001D2C63 /* FlyweightConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB492D79F26D001D2C63 /* FlyweightConceptualTest.swift */; };
 		83DDCB4B2D79F280001D2C63 /* FlyweightConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB472D79EF46001D2C63 /* FlyweightConceptual.swift */; };
+		83DDCB4D2D79F4EF001D2C63 /* FlyweightExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB4C2D79F4EF001D2C63 /* FlyweightExample.swift */; };
+		83DDCB4F2D79F4FA001D2C63 /* FlyweightExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB4E2D79F4FA001D2C63 /* FlyweightExampleTest.swift */; };
+		83DDCB502D7ACF1C001D2C63 /* FlyweightExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB4C2D79F4EF001D2C63 /* FlyweightExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +124,8 @@
 		83DDCB422D798E51001D2C63 /* FacadeExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExampleTest.swift; sourceTree = "<group>"; };
 		83DDCB472D79EF46001D2C63 /* FlyweightConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightConceptual.swift; sourceTree = "<group>"; };
 		83DDCB492D79F26D001D2C63 /* FlyweightConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightConceptualTest.swift; sourceTree = "<group>"; };
+		83DDCB4C2D79F4EF001D2C63 /* FlyweightExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightExample.swift; sourceTree = "<group>"; };
+		83DDCB4E2D79F4FA001D2C63 /* FlyweightExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightExampleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +415,7 @@
 			isa = PBXGroup;
 			children = (
 				83DDCB472D79EF46001D2C63 /* FlyweightConceptual.swift */,
+				83DDCB4C2D79F4EF001D2C63 /* FlyweightExample.swift */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -418,6 +424,7 @@
 			isa = PBXGroup;
 			children = (
 				83DDCB492D79F26D001D2C63 /* FlyweightConceptualTest.swift */,
+				83DDCB4E2D79F4FA001D2C63 /* FlyweightExampleTest.swift */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -533,6 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				361AE5162D76CA08009C02EF /* DecoratorExample.swift in Sources */,
+				83DDCB4D2D79F4EF001D2C63 /* FlyweightExample.swift in Sources */,
 				831CEA722D703D670033BA1B /* BridgeConceptual.swift in Sources */,
 				83743F662C2F15CB0067BB1A /* BuilderExample.swift in Sources */,
 				83C3C0062D6E0B0200B09DBF /* AdapterConceptual.swift in Sources */,
@@ -559,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DDCB502D7ACF1C001D2C63 /* FlyweightExample.swift in Sources */,
 				361AE51C2D76DFE8009C02EF /* DecoratorExample.swift in Sources */,
 				83DDCB4B2D79F280001D2C63 /* FlyweightConceptual.swift in Sources */,
 				831CEA862D71B9400033BA1B /* CompositeExample.swift in Sources */,
@@ -572,6 +581,7 @@
 				83743F772C308B1A0067BB1A /* PrototypeExample.swift in Sources */,
 				83743F582C2EA5260067BB1A /* AbstractFactoryConceptual.swift in Sources */,
 				83743F722C3087270067BB1A /* PrototypeExampleTests.swift in Sources */,
+				83DDCB4F2D79F4FA001D2C63 /* FlyweightExampleTest.swift in Sources */,
 				83743F5A2C2EAA2E0067BB1A /* AbstractFactoryExampleTests.swift in Sources */,
 				831CEA792D7043260033BA1B /* BridgeExampleTests.swift in Sources */,
 				83743F502C2E91380067BB1A /* FactoryMethodConceptual.swift in Sources */,
