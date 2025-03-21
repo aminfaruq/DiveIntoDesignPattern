@@ -63,6 +63,9 @@
 		83C3C00B2D6E0D8F00B09DBF /* AdapterConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */; };
 		83C3C00F2D6E16F700B09DBF /* AdapterExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3C00E2D6E16F700B09DBF /* AdapterExampleTests.swift */; };
 		83DC9A872D8BD7AF0038058A /* ProxyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830725DE2D801E4600B3986A /* ProxyExample.swift */; };
+		83DC9A8D2D8DB0EA0038058A /* ChainOfResponsibilityConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9A8C2D8DB0EA0038058A /* ChainOfResponsibilityConceptual.swift */; };
+		83DC9A8E2D8DB47B0038058A /* ChainOfResponsibilityConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9A8C2D8DB0EA0038058A /* ChainOfResponsibilityConceptual.swift */; };
+		83DC9A902D8DB48E0038058A /* ChainOfResponsibilityConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9A8F2D8DB48E0038058A /* ChainOfResponsibilityConceptualTests.swift */; };
 		83DDCB3C2D7983E6001D2C63 /* FacadeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */; };
 		83DDCB3D2D79874D001D2C63 /* FacadeConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */; };
 		83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */; };
@@ -128,6 +131,8 @@
 		83C3C0072D6E0B0F00B09DBF /* AdapterExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExample.swift; sourceTree = "<group>"; };
 		83C3C00A2D6E0D8F00B09DBF /* AdapterConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterConceptualTests.swift; sourceTree = "<group>"; };
 		83C3C00E2D6E16F700B09DBF /* AdapterExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterExampleTests.swift; sourceTree = "<group>"; };
+		83DC9A8C2D8DB0EA0038058A /* ChainOfResponsibilityConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityConceptual.swift; sourceTree = "<group>"; };
+		83DC9A8F2D8DB48E0038058A /* ChainOfResponsibilityConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityConceptualTests.swift; sourceTree = "<group>"; };
 		83DDCB3B2D7983E6001D2C63 /* FacadeConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptual.swift; sourceTree = "<group>"; };
 		83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptualTest.swift; sourceTree = "<group>"; };
 		83DDCB402D798E3A001D2C63 /* FacadeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExample.swift; sourceTree = "<group>"; };
@@ -250,6 +255,7 @@
 		83743F282C2E8AB50067BB1A /* DiveIntoDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				83DC9A882D8DB05C0038058A /* Behavioral Design Pattern */,
 				83743F402C2E8BFB0067BB1A /* Creational Design Pattern */,
 				83C3C0002D6E098100B09DBF /* Structural Design Pattern */,
 			);
@@ -259,6 +265,7 @@
 		83743F322C2E8AB50067BB1A /* DiveIntoDesignPatternTests */ = {
 			isa = PBXGroup;
 			children = (
+				83DC9A892D8DB06B0038058A /* Behavioral Design Pattern */,
 				83743F432C2E8DAE0067BB1A /* Creational Design Pattern */,
 				83C3C0012D6E099000B09DBF /* Structural Design Pattern */,
 			);
@@ -423,6 +430,38 @@
 			path = Adapter;
 			sourceTree = "<group>";
 		};
+		83DC9A882D8DB05C0038058A /* Behavioral Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				83DC9A8A2D8DB08F0038058A /* ChainOfResponsibility */,
+			);
+			path = "Behavioral Design Pattern";
+			sourceTree = "<group>";
+		};
+		83DC9A892D8DB06B0038058A /* Behavioral Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				83DC9A8B2D8DB0BA0038058A /* ChainOfResponsibility */,
+			);
+			path = "Behavioral Design Pattern";
+			sourceTree = "<group>";
+		};
+		83DC9A8A2D8DB08F0038058A /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				83DC9A8C2D8DB0EA0038058A /* ChainOfResponsibilityConceptual.swift */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		83DC9A8B2D8DB0BA0038058A /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				83DC9A8F2D8DB48E0038058A /* ChainOfResponsibilityConceptualTests.swift */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
 		83DDCB392D7983BE001D2C63 /* Facade */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +622,7 @@
 				83743F762C308B150067BB1A /* PrototypeExample.swift in Sources */,
 				83743F482C2E8E3B0067BB1A /* FactoryMethodConceptual.swift in Sources */,
 				831CEA832D71B29F0033BA1B /* CompositeExample.swift in Sources */,
+				83DC9A8D2D8DB0EA0038058A /* ChainOfResponsibilityConceptual.swift in Sources */,
 				831CEA7E2D719D5C0033BA1B /* CompositeConceptual.swift in Sources */,
 				83DDCB482D79EF46001D2C63 /* FlyweightConceptual.swift in Sources */,
 				83743F572C2EA50C0067BB1A /* AbstractFactoryConceptual.swift in Sources */,
@@ -604,6 +644,7 @@
 				361AE51C2D76DFE8009C02EF /* DecoratorExample.swift in Sources */,
 				83DDCB4B2D79F280001D2C63 /* FlyweightConceptual.swift in Sources */,
 				831CEA862D71B9400033BA1B /* CompositeExample.swift in Sources */,
+				83DC9A8E2D8DB47B0038058A /* ChainOfResponsibilityConceptual.swift in Sources */,
 				831CEA752D7040230033BA1B /* BridgeConceptual.swift in Sources */,
 				83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */,
 				831CEA812D71B1520033BA1B /* CompositeConceptual.swift in Sources */,
@@ -622,6 +663,7 @@
 				83743F682C2F15D80067BB1A /* BuilderExampleTests.swift in Sources */,
 				83743F702C3085420067BB1A /* PrototypeConceptual.swift in Sources */,
 				83743F512C2E968D0067BB1A /* FactoryMethodExample.swift in Sources */,
+				83DC9A902D8DB48E0038058A /* ChainOfResponsibilityConceptualTests.swift in Sources */,
 				361AE5182D76CA55009C02EF /* DecoratorConceptualTests.swift in Sources */,
 				361AE51B2D76CD37009C02EF /* DecoratorConceptual.swift in Sources */,
 				831CEA7A2D7046E30033BA1B /* BridgeExample.swift in Sources */,
