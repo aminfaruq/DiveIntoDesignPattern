@@ -35,6 +35,8 @@
 		83DC9A9F2D8F7E130038058A /* IteratorExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9A9E2D8F7E130038058A /* IteratorExampleTest.swift */; };
 		83DC9AA22D8FFBE00038058A /* MediatorConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9AA12D8FFBE00038058A /* MediatorConceptualTest.swift */; };
 		83DC9AA42D9000470038058A /* MediatorRealWordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9AA32D9000470038058A /* MediatorRealWordTest.swift */; };
+		83DC9AA72D903C170038058A /* MementoConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9AA62D903C170038058A /* MementoConceptualTest.swift */; };
+		83DC9AA92D9041610038058A /* MementoRealworldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC9AA82D9041610038058A /* MementoRealworldTest.swift */; };
 		83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */; };
 		83DDCB432D798E51001D2C63 /* FacadeExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB422D798E51001D2C63 /* FacadeExampleTest.swift */; };
 		83DDCB4A2D79F26D001D2C63 /* FlyweightConceptualTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DDCB492D79F26D001D2C63 /* FlyweightConceptualTest.swift */; };
@@ -81,6 +83,8 @@
 		83DC9A9E2D8F7E130038058A /* IteratorExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorExampleTest.swift; sourceTree = "<group>"; };
 		83DC9AA12D8FFBE00038058A /* MediatorConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorConceptualTest.swift; sourceTree = "<group>"; };
 		83DC9AA32D9000470038058A /* MediatorRealWordTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorRealWordTest.swift; sourceTree = "<group>"; };
+		83DC9AA62D903C170038058A /* MementoConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoConceptualTest.swift; sourceTree = "<group>"; };
+		83DC9AA82D9041610038058A /* MementoRealworldTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoRealworldTest.swift; sourceTree = "<group>"; };
 		83DDCB3E2D79876A001D2C63 /* FacadeConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeConceptualTest.swift; sourceTree = "<group>"; };
 		83DDCB422D798E51001D2C63 /* FacadeExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeExampleTest.swift; sourceTree = "<group>"; };
 		83DDCB492D79F26D001D2C63 /* FlyweightConceptualTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightConceptualTest.swift; sourceTree = "<group>"; };
@@ -251,6 +255,7 @@
 		83DC9A892D8DB06B0038058A /* Behavioral Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				83DC9AA52D903BFF0038058A /* Memento */,
 				83DC9AA02D8FFBC00038058A /* Mediator */,
 				83DC9A9B2D8F7A9E0038058A /* Iterator */,
 				83DC9A962D8F39CF0038058A /* Command */,
@@ -293,6 +298,15 @@
 				83DC9AA32D9000470038058A /* MediatorRealWordTest.swift */,
 			);
 			path = Mediator;
+			sourceTree = "<group>";
+		};
+		83DC9AA52D903BFF0038058A /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				83DC9AA62D903C170038058A /* MementoConceptualTest.swift */,
+				83DC9AA82D9041610038058A /* MementoRealworldTest.swift */,
+			);
+			path = Memento;
 			sourceTree = "<group>";
 		};
 		83DDCB3A2D7983C9001D2C63 /* Facade */ = {
@@ -432,6 +446,7 @@
 			files = (
 				83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */,
 				83743F612C2F10F00067BB1A /* BuilderConceptualTests.swift in Sources */,
+				83DC9AA92D9041610038058A /* MementoRealworldTest.swift in Sources */,
 				83743F552C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift in Sources */,
 				831CEA742D703D7B0033BA1B /* BridgeConceptualTests.swift in Sources */,
 				83DC9AA42D9000470038058A /* MediatorRealWordTest.swift in Sources */,
@@ -455,6 +470,7 @@
 				83DDCB4A2D79F26D001D2C63 /* FlyweightConceptualTest.swift in Sources */,
 				83DC9AA22D8FFBE00038058A /* MediatorConceptualTest.swift in Sources */,
 				83C3C00F2D6E16F700B09DBF /* AdapterExampleTests.swift in Sources */,
+				83DC9AA72D903C170038058A /* MementoConceptualTest.swift in Sources */,
 				361AE51A2D76CA75009C02EF /* DecoratorExampleTest.swift in Sources */,
 				83DC9A982D8F3AA90038058A /* CommandConceptualTest.swift in Sources */,
 				83DC9A942D8E853D0038058A /* ChainOfResponsibilityExampleTests.swift in Sources */,
@@ -606,7 +622,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = WZB5R9B92Y;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -639,7 +655,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = WZB5R9B92Y;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
