@@ -11,6 +11,8 @@
 		361AE51A2D76CA75009C02EF /* DecoratorExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE5192D76CA75009C02EF /* DecoratorExampleTest.swift */; };
 		830725E12D801E6500B3986A /* ProxyConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830725E02D801E6500B3986A /* ProxyConceptualTests.swift */; };
 		830725E32D801E7600B3986A /* ProxyExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830725E22D801E7600B3986A /* ProxyExampleTests.swift */; };
+		8310AC342DA90589008F7551 /* ObserverConceptual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310AC332DA9057A008F7551 /* ObserverConceptual.swift */; };
+		8310AC362DA90EE9008F7551 /* ObserverRealworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310AC352DA90ED0008F7551 /* ObserverRealworld.swift */; };
 		831CEA742D703D7B0033BA1B /* BridgeConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA732D703D7B0033BA1B /* BridgeConceptualTests.swift */; };
 		831CEA792D7043260033BA1B /* BridgeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA782D7043260033BA1B /* BridgeExampleTests.swift */; };
 		831CEA802D719D6C0033BA1B /* CompositeConceptualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CEA7F2D719D6C0033BA1B /* CompositeConceptualTests.swift */; };
@@ -58,6 +60,8 @@
 		361AE5192D76CA75009C02EF /* DecoratorExampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorExampleTest.swift; sourceTree = "<group>"; };
 		830725E02D801E6500B3986A /* ProxyConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyConceptualTests.swift; sourceTree = "<group>"; };
 		830725E22D801E7600B3986A /* ProxyExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyExampleTests.swift; sourceTree = "<group>"; };
+		8310AC332DA9057A008F7551 /* ObserverConceptual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverConceptual.swift; sourceTree = "<group>"; };
+		8310AC352DA90ED0008F7551 /* ObserverRealworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverRealworld.swift; sourceTree = "<group>"; };
 		831CEA732D703D7B0033BA1B /* BridgeConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeConceptualTests.swift; sourceTree = "<group>"; };
 		831CEA782D7043260033BA1B /* BridgeExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeExampleTests.swift; sourceTree = "<group>"; };
 		831CEA7F2D719D6C0033BA1B /* CompositeConceptualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeConceptualTests.swift; sourceTree = "<group>"; };
@@ -126,6 +130,15 @@
 				830725E22D801E7600B3986A /* ProxyExampleTests.swift */,
 			);
 			path = Proxy;
+			sourceTree = "<group>";
+		};
+		8310AC302DA901CB008F7551 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				8310AC332DA9057A008F7551 /* ObserverConceptual.swift */,
+				8310AC352DA90ED0008F7551 /* ObserverRealworld.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		831CEA6F2D703D360033BA1B /* Bridge */ = {
@@ -255,6 +268,7 @@
 		83DC9A892D8DB06B0038058A /* Behavioral Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				8310AC302DA901CB008F7551 /* Observer */,
 				83DC9AA52D903BFF0038058A /* Memento */,
 				83DC9AA02D8FFBC00038058A /* Mediator */,
 				83DC9A9B2D8F7A9E0038058A /* Iterator */,
@@ -446,6 +460,7 @@
 			files = (
 				83DDCB3F2D79876A001D2C63 /* FacadeConceptualTest.swift in Sources */,
 				83743F612C2F10F00067BB1A /* BuilderConceptualTests.swift in Sources */,
+				8310AC362DA90EE9008F7551 /* ObserverRealworld.swift in Sources */,
 				83DC9AA92D9041610038058A /* MementoRealworldTest.swift in Sources */,
 				83743F552C2EA4F60067BB1A /* AbstractFactoryConceptualTests.swift in Sources */,
 				831CEA742D703D7B0033BA1B /* BridgeConceptualTests.swift in Sources */,
@@ -473,6 +488,7 @@
 				83DC9AA72D903C170038058A /* MementoConceptualTest.swift in Sources */,
 				361AE51A2D76CA75009C02EF /* DecoratorExampleTest.swift in Sources */,
 				83DC9A982D8F3AA90038058A /* CommandConceptualTest.swift in Sources */,
+				8310AC342DA90589008F7551 /* ObserverConceptual.swift in Sources */,
 				83DC9A942D8E853D0038058A /* ChainOfResponsibilityExampleTests.swift in Sources */,
 				83DC9A9F2D8F7E130038058A /* IteratorExampleTest.swift in Sources */,
 				83DC9A9A2D8F3D1E0038058A /* CommandRealworldTest.swift in Sources */,
